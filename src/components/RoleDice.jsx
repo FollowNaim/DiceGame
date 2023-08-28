@@ -18,7 +18,7 @@ const RoleDice = ({ error, randomNumber, Roled, currentDice, selected })=>{
      }
     }}} className={`w-36 ${currentDice?'rotate':''}`} src={`./images/dices/dice_${currentDice}.png`} />
     </div>
-    <p className="text-center font-semibold text-xl mt-4">Role The Dice </p>
+    <p className="text-center font-semibold text-xl mt-4">Roll The Dice </p>
     
     </div>
     )
