@@ -15,7 +15,7 @@ const Contact = ()=>{
     <div className="flex gap-4">
     
     <i class='bx bxl-telegram text-5xl text-white border-[1px] rounded bx-burst' onClick={openTelegram}></i>
-    <i class='bx bxl-github text-5xl text-white border-[1px] rounded bx-fade-right'></i>
+    <i class='bx bxl-github text-5xl text-white border-[1px] rounded bx-fade-right' onClick={openGithub}></i>
     </div>
    <i class='bx bxs-envelope text-5xl text-white border-[1px] rounded bx-tada' onClick={openMail}></i>
     </div>
