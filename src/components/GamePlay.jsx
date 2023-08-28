@@ -54,7 +54,7 @@ const GamePlay = ()=>{
     <TotalScore score={score} />
     <SelectNumbers selected={selected} setSelected={setSelected} error={error} setError={setError} />
     <RoleDice randomNumber={randomNumber} Roled={Roled} currentDice={currentDice} error={error} selected={selected} />
-    <div className="flex flex-col justify-center items-center mt-3">
+    <div className="flex flex-col justify-center items-center mt-4">
     <div className="flex">
     <button className="bg-black text-white w-36 p-2 border-0 outline-0 rounded" onClick={()=>setScore(0)}>Reset Score</button>
     <button className="bg-gray-500 text-white w-36 p-2 border-0 outline-0 ml-2 rounded"onClick={rulesToggle}>{rules?"Hide":"Show"} Rules</button>

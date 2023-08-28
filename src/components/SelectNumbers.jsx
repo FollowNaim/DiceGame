@@ -13,6 +13,7 @@ const selectNumberHandler = (value)=>{
     </div>
     <div className={`flex flex-col ml-[10rem] sm:ml-[15rem] m-w-[50rem] mt-4 font-semibold ${error==""?"text-black":"text-red-500"}`}>
     <p className="">{(error=="")?"Select Numbers":error}</p>
+    <p className="text-red-800">Win score is 30</p>
     </div>
     </div>
     </>
