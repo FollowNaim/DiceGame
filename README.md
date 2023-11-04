@@ -1,1 +1,3 @@
-A dice game project @Naim with React!
+Dice game !
+i made it with react and tailwind css as my beginner project.
+IDE used A-code android.
